@@ -13,24 +13,24 @@ const Index = () => {
   const products = [
     {
       id: 1,
-      title: 'Деформационные швы',
-      description: 'Надежные решения для компенсации температурных деформаций зданий и сооружений',
-      image: 'https://cdn.poehali.dev/projects/c9a866e6-82cc-4401-95f0-1cc1e4335300/files/a1b8d5b6-abb5-4739-b9a1-eaa6e83dedcb.jpg',
-      icon: 'MoveHorizontal'
+      title: 'Промышленные полы',
+      description: 'Высокопрочные полимерные покрытия для промышленных и коммерческих объектов',
+      image: 'https://cdn.poehali.dev/projects/c9a866e6-82cc-4401-95f0-1cc1e4335300/files/1ab2d323-9d60-4238-bd81-00d3c9172e4a.jpg',
+      icon: 'Grid3x3'
     },
     {
       id: 2,
-      title: 'Компенсаторы',
-      description: 'Высококачественные компенсаторы для трубопроводных систем различного назначения',
-      image: 'https://cdn.poehali.dev/projects/c9a866e6-82cc-4401-95f0-1cc1e4335300/files/0be2d996-b615-4151-aff7-8b37a978d881.jpg',
-      icon: 'Settings'
+      title: 'Огнезащита',
+      description: 'Эффективные системы огнезащиты металлоконструкций и строительных элементов',
+      image: 'https://cdn.poehali.dev/projects/c9a866e6-82cc-4401-95f0-1cc1e4335300/files/c2efee85-bb39-4a40-8a1e-d41676d0368e.jpg',
+      icon: 'Flame'
     },
     {
       id: 3,
-      title: 'Противопожарные системы',
-      description: 'Современные системы противопожарной защиты для промышленных объектов',
-      image: 'https://cdn.poehali.dev/projects/c9a866e6-82cc-4401-95f0-1cc1e4335300/files/61706494-e603-4583-b5e4-6f8722c23c34.jpg',
-      icon: 'Flame'
+      title: 'Антикоррозийная защита',
+      description: 'Надежная защита металлических конструкций от коррозии и агрессивных сред',
+      image: 'https://cdn.poehali.dev/projects/c9a866e6-82cc-4401-95f0-1cc1e4335300/files/8cf0094f-5b35-48b1-9c29-d661e7187b6e.jpg',
+      icon: 'Shield'
     },
     {
       id: 4,
@@ -38,6 +38,20 @@ const Index = () => {
       description: 'Профессиональные герметизирующие материалы для строительства и промышленности',
       image: 'https://cdn.poehali.dev/projects/c9a866e6-82cc-4401-95f0-1cc1e4335300/files/a1b8d5b6-abb5-4739-b9a1-eaa6e83dedcb.jpg',
       icon: 'Droplet'
+    },
+    {
+      id: 5,
+      title: 'Гидроизоляция',
+      description: 'Современные гидроизоляционные материалы и системы для любых объектов',
+      image: 'https://cdn.poehali.dev/projects/c9a866e6-82cc-4401-95f0-1cc1e4335300/files/0be2d996-b615-4151-aff7-8b37a978d881.jpg',
+      icon: 'Waves'
+    },
+    {
+      id: 6,
+      title: 'Защита бетона',
+      description: 'Комплексные решения для защиты и упрочнения бетонных конструкций',
+      image: 'https://cdn.poehali.dev/projects/c9a866e6-82cc-4401-95f0-1cc1e4335300/files/61706494-e603-4583-b5e4-6f8722c23c34.jpg',
+      icon: 'Home'
     }
   ];
 
@@ -113,7 +127,7 @@ const Index = () => {
               Промышленные решения для строительства
             </h1>
             <p className="text-xl text-white/90 mb-8 animate-fade-in">
-              Поставка деформационных швов, компенсаторов, противопожарных систем и герметиков для промышленных объектов
+              Полный спектр защитных материалов и покрытий для промышленных и строительных объектов
             </p>
             <div className="flex flex-wrap gap-4 animate-fade-in">
               <Button size="lg" className="bg-accent hover:bg-accent/90 text-white" asChild>
@@ -136,7 +150,7 @@ const Index = () => {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {products.map((product) => (
               <Card key={product.id} className="overflow-hidden hover:shadow-xl transition-shadow duration-300 group">
                 <div className="relative h-48 overflow-hidden bg-muted">
@@ -327,10 +341,12 @@ const Index = () => {
             <div>
               <h3 className="font-semibold mb-4">Продукция</h3>
               <ul className="space-y-2 text-white/80">
-                <li><a href="#" className="hover:text-accent transition-colors">Деформационные швы</a></li>
-                <li><a href="#" className="hover:text-accent transition-colors">Компенсаторы</a></li>
-                <li><a href="#" className="hover:text-accent transition-colors">Противопожарные системы</a></li>
+                <li><a href="#" className="hover:text-accent transition-colors">Промышленные полы</a></li>
+                <li><a href="#" className="hover:text-accent transition-colors">Огнезащита</a></li>
+                <li><a href="#" className="hover:text-accent transition-colors">Антикоррозийная защита</a></li>
                 <li><a href="#" className="hover:text-accent transition-colors">Герметики</a></li>
+                <li><a href="#" className="hover:text-accent transition-colors">Гидроизоляция</a></li>
+                <li><a href="#" className="hover:text-accent transition-colors">Защита бетона</a></li>
               </ul>
             </div>
 
