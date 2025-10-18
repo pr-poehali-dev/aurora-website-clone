@@ -36,21 +36,21 @@ const Index = () => {
       id: 4,
       title: 'Герметики',
       description: 'Профессиональные герметизирующие материалы для строительства и промышленности',
-      image: 'https://cdn.poehali.dev/projects/c9a866e6-82cc-4401-95f0-1cc1e4335300/files/a1b8d5b6-abb5-4739-b9a1-eaa6e83dedcb.jpg',
+      image: 'https://cdn.poehali.dev/projects/c9a866e6-82cc-4401-95f0-1cc1e4335300/files/18b91718-825b-4657-87bc-2536c54682aa.jpg',
       icon: 'Droplet'
     },
     {
       id: 5,
       title: 'Гидроизоляция',
       description: 'Современные гидроизоляционные материалы и системы для любых объектов',
-      image: 'https://cdn.poehali.dev/projects/c9a866e6-82cc-4401-95f0-1cc1e4335300/files/0be2d996-b615-4151-aff7-8b37a978d881.jpg',
+      image: 'https://cdn.poehali.dev/projects/c9a866e6-82cc-4401-95f0-1cc1e4335300/files/e5024c32-d66c-4072-a4f0-bc7bd3e13b3e.jpg',
       icon: 'Waves'
     },
     {
       id: 6,
       title: 'Защита бетона',
       description: 'Комплексные решения для защиты и упрочнения бетонных конструкций',
-      image: 'https://cdn.poehali.dev/projects/c9a866e6-82cc-4401-95f0-1cc1e4335300/files/61706494-e603-4583-b5e4-6f8722c23c34.jpg',
+      image: 'https://cdn.poehali.dev/projects/c9a866e6-82cc-4401-95f0-1cc1e4335300/files/b97a039a-3574-4d5e-8374-ad51352651cc.jpg',
       icon: 'Home'
     }
   ];
